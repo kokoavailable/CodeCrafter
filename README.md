@@ -9,6 +9,7 @@ CodeCrafter-Learning/
 ├── Network_Protocol/          # Directory for network protocol concepts
 │   ├── 1_TCP_IP_Model.md      # Overview of the TCP/IP model
 │   ├── 2_Overview_TCP_IP.md   # Detailed exploration of TCP/IP protocols
+│   ├── 3_redis_protocol.md    # Overview of the redis protocol
 
 ```
 
