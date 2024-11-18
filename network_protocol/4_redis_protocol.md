@@ -94,5 +94,21 @@ This command:
 - **`-t`**: Enables timestamped output.
 - **`'tcp and port 6379'`**: Filters traffic on the Redis default port (6379)
 
+- # Redis Serialization Protocol (RESP)
+
+RESP는 Redis에서 클라이언트와 서버 간 통신을 위해 사용하는 프로토콜입니다. 
+각 데이터 유형은 특정 접두사로 구분되며, 이로 인해 클라이언트가 응답을 효율적으로 처리할 수 있습니다.
+
+## RESP Types and Prefixes
+
+| **RESP Type**     | **Prefix** | **Description**                                              |
+| ----------------- | ---------- | ------------------------------------------------------------ |
+| **Simple String** | `+`        | Represents a success message in plain text. (`+OK`, `+PONG`) |
+| **Error Message** | `-`        | Represents an error message. (`-ERROR`, `-WRONGTYPE`)        |
+| **Integer**       | `:`        | Represents an integer value. (`:1000`)                       |
+| **Array**         | `*`        | Represents multiple data values. (`*2\r\n$3\r\nfoo\r\n$3\r\nbar\r\n`) |
+| **Bulk String**   | `$`        | Represents a string with a specified length. (`$3\r\nfoo\r\n`) |
+| **Null Value**    | `-1`       | Indicates the absence of a value. (`$-1` or `*-1`)           |
+
 
 https://lethain.com/redis-protocol/
