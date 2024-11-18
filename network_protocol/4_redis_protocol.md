@@ -96,8 +96,8 @@ This command:
 
 - # Redis Serialization Protocol (RESP)
 
-RESP는 Redis에서 클라이언트와 서버 간 통신을 위해 사용하는 프로토콜입니다. 
-각 데이터 유형은 특정 접두사로 구분되며, 이로 인해 클라이언트가 응답을 효율적으로 처리할 수 있습니다.
+RESP is a protocol used by Redis for communication between clients and servers. 
+Each data type is identified by a specific prefix, allowing clients to efficiently process responses.
 
 ## RESP Types and Prefixes
 
