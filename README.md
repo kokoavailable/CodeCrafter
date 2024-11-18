@@ -1,7 +1,21 @@
-learning through CodeCrafter, documenting knowledge and practice to become a better engineer
+# CodeCrafter
 
+**learning through CodeCrafter, documenting knowledge and practice to become a better engineer**
+
+## Directory Structure
+```plaintext
 CodeCrafter-Learning/
-├── README.md                  
-├── Network_Protocol/          # 네트워크 프로토콜 관련 학습 내용
-│   ├── 1_TCP_IP_Model.md      # TCP/IP 모델 요약
-│   ├── 2_Overview_TCP_IP.md   # TCP/IP 프로토콜 개요
+├── README.md                  # Overview of the repository
+├── Network_Protocol/          # Directory for network protocol concepts
+│   ├── 1_TCP_IP_Model.md      # Overview of the TCP/IP model
+│   ├── 2_Overview_TCP_IP.md   # Detailed exploration of TCP/IP protocols
+
+```
+
+## Purpose
+The primary goal of this repository is to:
+- Document knowledge gained from working through CodeCrafter.
+- Organize resources and examples for better understanding.
+- Create a reference for future use and sharing knowledge with others.
+
+Feel free to explore, learn, and contribute!
