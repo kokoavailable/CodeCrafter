@@ -1,0 +1,64 @@
+TCP operates on top of the IP protocol and relies on it for data transmission.
+
+---
+
+### **IP Protocol (Internet Protocol)**
+
+The IP protocol transmits data by dividing it into small units called **packets**.  
+Each packet consists of two main components:
+
+- **Header**: Contains the source and destination IP addresses.
+- **Data Section**: Holds the actual data being transmitted.
+
+Despite its best efforts, IP does not guarantee reliable delivery. Packets can be lost during transmission or arrive out of order if multiple packets are sent simultaneously.
+
+---
+
+### **TCP Protocol (Transmission Control Protocol)**
+
+TCP addresses the limitations of IP by providing reliability and order:
+
+1. **Ensuring Packet Reliability**:
+    
+    - When a sender transmits a packet, the receiver sends an **ACK (Acknowledgment)** to confirm its receipt.
+    - If the sender does not receive an ACK, the packet is **retransmitted**.
+    - TCP uses sequence numbers to detect and recover missing packets.
+2. **Guaranteeing Packet Order**:
+    
+    - **ISN (Initial Sequence Number)** helps the receiver rearrange packets in the correct order.
+
+TCP is a **connection-oriented protocol**, meaning a connection must be established before communication begins.
+
+- One device acts as the server, and the other as the client.
+- Once established, both devices can send and receive data through a **two-way channel**.
+
+---
+
+### **TCP Connection and Port Numbers**
+
+A TCP connection is uniquely identified by the following four components:
+
+1. **Source IP Address**.
+2. **Source Port Number**:
+    - An unused **ephemeral port** is assigned on the sender side, and different connections use different port numbers.
+3. **Destination IP Address**.
+4. **Destination Port Number**:
+    - Servers typically use fixed port numbers (e.g., HTTP - 80, HTTPS - 443).
+
+---
+
+### **TCP Handshake (3-Way Handshake)**
+
+The TCP connection is established in three steps:
+
+1. **SYN**:  
+    The client sends a connection request to the server.
+2. **SYN-ACK**:  
+    The server accepts the request and sends a response back to the client.
+3. **ACK**:  
+    The client acknowledges the response.
+    - During this process, both sides set their respective **ISN (Initial Sequence Numbers)** to prepare for data transmission.
+
+Once the handshake is complete, the TCP connection is established.
+- 
+https://app.codecrafters.io/concepts/tcp-overview
