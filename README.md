@@ -11,6 +11,8 @@ CodeCrafter-Learning/
 │   ├── 2_Overview_TCP_IP.md   # Detailed exploration of TCP/IP protocols
 │   ├── 3_tcp_python.md        # Build a TCP Server in Python using the `socket` Module
 │   ├── 4_redis_protocol.md    # Overview of the redis protocol
+│   ├── 5_js_evenloop.md       # Overview of the event loop
+
 
 ```
 
