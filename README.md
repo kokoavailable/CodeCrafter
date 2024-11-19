@@ -2,6 +2,8 @@
 
 **learning through CodeCrafter, documenting knowledge and practice to become a better engineer**
 
+레디스
+https://github.com/kokoavailable/redis_codecrafter
 https://app.codecrafters.io/courses/redis/
 
 ## Directory Structure
