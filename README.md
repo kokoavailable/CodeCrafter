@@ -2,6 +2,8 @@
 
 **learning through CodeCrafter, documenting knowledge and practice to become a better engineer**
 
+https://app.codecrafters.io/courses/redis/
+
 ## Directory Structure
 ```plaintext
 CodeCrafter-Learning/
