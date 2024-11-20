@@ -16,6 +16,8 @@ CodeCrafter-Learning/
 │   ├── 3_tcp_python.md        # Build a TCP Server in Python using the `socket` Module
 │   ├── 4_redis_protocol.md    # Overview of the redis protocol
 │   ├── 5_js_evenloop.md       # Overview of the event loop
+├── git/                       # Directory for git concepts
+│   ├── 01_git_folder.md       # Overview of the .git
 
 
 ```
