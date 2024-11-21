@@ -129,3 +129,5 @@
    ```
 
 By understanding the `.git` folder, you can better grasp how Git manages version control and effectively troubleshoot or explore repository internals.
+
+https://www.youtube.com/watch?v=bSA91XTzeuA
