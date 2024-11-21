@@ -17,7 +17,7 @@ CodeCrafter-Learning/
 │   ├── 4_redis_protocol.md    # Overview of the redis protocol
 │   ├── 5_js_evenloop.md       # Overview of the event loop
 ├── git/                       # Directory for git concepts
-│   ├── 01_git_folder.md       # Overview of the .git
+│   ├── 01_git_folder.md       # Overview of the .git folder
 
 
 ```
