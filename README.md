@@ -13,7 +13,7 @@
 깃
 - https://github.com/kokoavailable/Git_CodeCrafter
 
-카프카
+비동기 카프카
 - https://github.com/kokoavailable/codecrafters-kafka-python
 
 ## Directory Structure
